@@ -30,12 +30,12 @@ To measure map render speed:
 
 ## 3. Reporting Template
 
-| Test                | Avg Time (ms) | Notes                        |
-|---------------------|---------------|------------------------------|
-| `/api/spots`        |               |                              |
-| `/api/spots/top`    |               |                              |
-| `/api/spots/:id`    |               |                              |
-| Map Render (client) |               |                              |
+| Test                | Avg Time (ms) | Notes                                 |
+|---------------------|---------------|---------------------------------------|
+| `/api/spots`        |    191.2 ms   | Fast, tested on local server          |
+| `/api/spots/top`    |    101.8 ms   | Very fast, low data volume            |
+| `/api/spots/:id`    |    118.6 ms   | Consistent, no noticeable lag         |
+| Map Render (client) |    1500 ms    | Blurry for 1s, then markers appear    |
 
 - Add any observations about slow endpoints or UI bottlenecks.
 - Note device/network conditions for context.
