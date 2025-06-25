@@ -6,7 +6,7 @@
 
 ## 🎬 Demo Video
 
-[**Link to your demo video here** – e.g., on Google Drive, YouTube, or Loom]
+https://drive.google.com/file/d/1_G2UTQgTUElDJldRdVuK2r9ByCK0ClnT/view?usp=sharing
 
 ---
 
