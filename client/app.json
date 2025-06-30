@@ -42,7 +42,15 @@
           "backgroundColor": "#ffffff"
         }
       ],
-      "expo-secure-store"
+      "expo-secure-store",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "1.9.22"
+          }
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true

@@ -1,9 +1,37 @@
 {
   "expo": {
+    "name": "Hidden Spots",
+    "slug": "hidden-spots-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "jsc",
+    "android": {
+      "package": "com.aisha2022.hiddenspotsapp"
+    },
+     "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "1.9.22"
+          }
+        }
+      ]
+    ],
+    "sdkVersion": "53.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "extra": {
       "eas": {
         "projectId": "c4715f12-f0e8-4bfe-bfb3-964aeec70110"
       }
-    }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/c4715f12-f0e8-4bfe-bfb3-964aeec70110"
+    },
+    "ios": {}
   }
 }
