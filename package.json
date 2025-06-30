@@ -1,4 +1,20 @@
 {
+  "name": "hidden-spots-app",
+  "version": "1.0.0",
+  "description": "Hidden Spots App - React Native with Node.js backend",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "cd server && npm start",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": ["react-native", "expo", "nodejs", "express", "mongodb"],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "expo": {
     "doctor": {
       "reactNativeDirectoryCheck": {
