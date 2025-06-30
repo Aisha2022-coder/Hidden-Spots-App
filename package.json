@@ -1,26 +1,7 @@
 {
-  "expo": {
-    "doctor": {
-      "reactNativeDirectoryCheck": {
-        "listUnknownPackages": false
-      }
-    }
-  },
   "dependencies": {
-    "expo": "^53.0.13",
-    "expo-build-properties": "~0.14.0",
-    "expo-linking": "^7.1.5",
-    "expo-router": "^5.1.1",
-    "expo-updates": "~0.28.15",
     "multer": "^2.0.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-native": "0.73.4",
-    "react-native-maps": "1.20.1",
-    "react-native-safe-area-context": "5.4.0",
-    "react-native-screens": "^4.11.1"
-  },
-  "devDependencies": {
-    "metro": "^0.82.4"
+    "react-native-maps": "^1.20.1",
+    "react-native-safe-area-context": "^5.4.0"
   }
 }
